@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Música en Línea</title>
+    <style>
+        /* Estilos CSS básicos para mejorar la apariencia */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+        }
+        aside {
+            background-color: #ccc;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tienda de Música en Línea</h1>
+        <p>Encuentra y compra la música que amas</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Catálogo</a></li>
+            <li><a href="#">Novedades</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Explora Nuestro Catálogo</h2>
+            <p>Descubre una amplia selección de música en MP3 y formatos físicos.</p>
+            <a href="#">Ver Catálogo</a>
+        </section>
+        
+        <section>
+            <h2>Novedades Recientes</h2>
+            <article>
+                <h3>Álbum: "Música del Mundo"</h3>
+                <p>Escucha la última música de artistas de todo el mundo.</p>
+                <a href="#">Detalles</a>
+            </article>
+            <article>
+                <h3>Single: "Canción del Verano"</h3>
+                <p>La canción perfecta para tus vacaciones de verano.</p>
+                <a href="#">Detalles</a>
+            </article>
+        </section>
+    </main>
+
+    <aside>
+        <h2>Ofertas Especiales</h2>
+        <p>No te pierdas nuestras ofertas exclusivas en música.</p>
+        <ul>
+            <li><a href="#">Oferta del Mes</a></li>
+            <li><a href="#">Descuentos en Vinilos</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2023 Tienda de Música en Línea. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
